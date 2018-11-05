@@ -8,7 +8,7 @@ echo "
 #  From  Team   : 404_Not_Found 
 #  TY From Supp : Management Informatika 4
 ################################################\n";
-echo "Nomor Target? usahakan nomor mantan\nBanyak Spam? : ";
+echo "Nomor Target usahakan nomor mantan\nMasukan Nomor : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);
@@ -18,7 +18,7 @@ if(strlen($nomer)==11){
 echo "Target: $nomer (y/n)";
 $cek = trim(fgets(STDIN));
 if($cek=="n") exit("Stopped!\n");
-echo "Jumlah?\nInput : ";
+echo "Jumlah jangan banyak2, kasian\nMasukan jumlah spam : ";
 $jumlah = trim(fgets(STDIN));
 for($a=0;$a<$jumlah;$a++) {
 	$rand1 = md5(rand(12345678,98765432));
