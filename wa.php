@@ -1,9 +1,8 @@
 <?php
-echo "Spam Whatapp\n\n";
+echo "Spam Whatsapp\n\n";
 echo "
 ################################################
 #  Spam Whatsapp From BUKALAPAK
-#  Author By    : inYourdreaM
 #  Contact      : dota90992@gmail.com
 #  From  Team   : 404_Not_Found 
 #  TY From Supp : Management Informatika 4
